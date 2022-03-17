@@ -182,7 +182,7 @@ function counting_sort(arr){
 
 
 
-//快速排序 双轴快排
+//快速排序 设置轴pivot 把其他数按大小排到轴的两边
 function quick_arr(arr,star,end){
 	// console.log("原数组 "+arr.join(","));
 
@@ -215,7 +215,7 @@ function quick_arr(arr,star,end){
 
 }
 
-
+//快速排序  选择轴拆分数组
 function quick_sort(arr,left,right){
 
 	if(arr.length <= 1){
